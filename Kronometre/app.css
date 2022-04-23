@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin: 5rem auto;
+    width: 50%;
+    height: 40%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+form label{
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+    margin:0 1rem;
+}
+#secilenDk, #secilenSn,#secilenTur{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+#baslat{
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background: rgb(9, 129, 39);
+    border-radius: 10px;
+    border: none;
+}
+#sifirla{
+    cursor: pointer;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background: rgb(31, 0, 145);
+    border-radius: 10px;
+    border: none;
+}
+#baslat:hover{
+    background: rgb(98, 230, 86);
+}
+#sifirla:hover{
+    background: rgb(96, 89, 202);
+}
